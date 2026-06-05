@@ -1,0 +1,65 @@
+{# Distribución de horas de sueño nocturno #}
+
+{% set margin = obj("top", 30, "right", 30, "bottom", 70, "left", 60) %}
+{% set width = 500 - margin.left - margin.right %}
+{% set height = 400 - margin.top - margin.bottom %}
+
+<svg width="{{width + margin.left + margin.right}}"
+     height="{{height + margin.top + margin.bottom}}"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .tick-label { font-family: sans-serif; fill: #333; }
+    .axis-line, .tick-line { stroke: #666; }
+    .chart-title { font-family: sans-serif; font-size: 14px; fill: #222; }
+  </style>
+
+  <text class="chart-title"
+        x="{{(width + margin.left + margin.right) / 2}}"
+        y="20"
+        text-anchor="middle">
+    Distribución de horas de sueño nocturno
+  </text>
+
+  <g transform="translate({{margin.left}},{{margin.top}})">
+
+    {% set x = scaleLinear()
+          | domain([4, 9])
+          | range(0, width) %}
+
+    <g transform="translate(0,{{height}})">
+      {{ call(axisBottom(x) | tickCount(6)) }}
+    </g>
+
+    {% set y = scaleLinear()
+          | domain([0, 350])
+          | range(height, 0) %}
+
+    <g> {{ call(axisLeft(y) | tickCount(5)) }} </g>
+
+    {% set binWidth = width / 30 %}
+    {% for d in data %}
+      <rect x="{{ scale(x, d.x) }}"
+            y="{{ scale(y, d.count) }}"
+            width="{{ binWidth - 1 }}"
+            height="{{ height - scale(y, d.count) }}"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+    {% endfor %}
+
+    <text text-anchor="middle"
+          x="{{ width / 2 }}"
+          y="{{ height + 55 }}"
+          font-family="sans-serif" font-size="12" fill="#444">
+      Horas de sueño
+    </text>
+
+    <text text-anchor="middle"
+          transform="rotate(-90)"
+          x="{{ 0 - height / 2 }}"
+          y="-45"
+          font-family="sans-serif" font-size="12" fill="#444">
+      Frecuencia
+    </text>
+  </g>
+</svg>

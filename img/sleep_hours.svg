@@ -1,0 +1,310 @@
+
+
+<svg width="500"
+     height="400"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .tick-label { font-family: sans-serif; fill: #333; }
+    .axis-line, .tick-line { stroke: #666; }
+    .chart-title { font-family: sans-serif; font-size: 14px; fill: #222; }
+  </style>
+
+  <text class="chart-title"
+        x="250.0"
+        y="20"
+        text-anchor="middle">
+    Distribución de horas de sueño nocturno
+  </text>
+
+  <g transform="translate(60,30)">
+
+
+    <g transform="translate(0,300)">
+      <!-- axis orientation=bottom range=[0,410] ticks=11 -->
+  <g class="axis axis-bottom" transform="translate(0, 0)">
+    <line class="axis-line" x1="0" y1="0" x2="410" y2="0" stroke="currentColor" stroke-width="1"/>
+    <g class="tick" transform="translate(0, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >4</text>
+    </g>
+    <g class="tick" transform="translate(41, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >4.50</text>
+    </g>
+    <g class="tick" transform="translate(82, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >5</text>
+    </g>
+    <g class="tick" transform="translate(123, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >5.50</text>
+    </g>
+    <g class="tick" transform="translate(164, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >6</text>
+    </g>
+    <g class="tick" transform="translate(205, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >6.50</text>
+    </g>
+    <g class="tick" transform="translate(246, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >7</text>
+    </g>
+    <g class="tick" transform="translate(287, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >7.50</text>
+    </g>
+    <g class="tick" transform="translate(328, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >8</text>
+    </g>
+    <g class="tick" transform="translate(369, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >8.50</text>
+    </g>
+    <g class="tick" transform="translate(410, 0)">
+      <line class="tick-line" x1="0" y1="0" x2="0" y2="6" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="0" y="9" text-anchor="middle" dominant-baseline="hanging" dy="0.15em" >9</text>
+    </g>
+  </g>
+
+    </g>
+
+
+    <g> <!-- axis orientation=left range=[300,0] ticks=8 -->
+  <g class="axis axis-left" transform="translate(0, 0)">
+    <line class="axis-line" x1="0" y1="300" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+    <g class="tick" transform="translate(0, 300)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >0</text>
+    </g>
+    <g class="tick" transform="translate(0, 257.14)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >50</text>
+    </g>
+    <g class="tick" transform="translate(0, 214.29)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >100</text>
+    </g>
+    <g class="tick" transform="translate(0, 171.43)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >150</text>
+    </g>
+    <g class="tick" transform="translate(0, 128.57)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >200</text>
+    </g>
+    <g class="tick" transform="translate(0, 85.71)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >250</text>
+    </g>
+    <g class="tick" transform="translate(0, 42.86)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >300</text>
+    </g>
+    <g class="tick" transform="translate(0, 0)">
+      <line class="tick-line" x1="-6" y1="0" x2="0" y2="0" stroke="currentColor" stroke-width="1"/>
+      <text class="tick-label" x="-9" y="0" text-anchor="end" dominant-baseline="central" >350</text>
+    </g>
+  </g>
+ </g>
+
+      <rect x="0.0"
+            y="300.0"
+            width="12.666666666666666"
+            height="0.0"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="13.693999999999985"
+            y="300.0"
+            width="12.666666666666666"
+            height="0.0"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="27.306000000000015"
+            y="300.0"
+            width="12.666666666666666"
+            height="0.0"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="41.0"
+            y="70.2857142857143"
+            width="12.666666666666666"
+            height="229.7142857142857"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="54.69399999999999"
+            y="71.14285714285714"
+            width="12.666666666666666"
+            height="228.85714285714286"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="68.30600000000001"
+            y="84.0"
+            width="12.666666666666666"
+            height="216.0"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="82.0"
+            y="42.0"
+            width="12.666666666666666"
+            height="258.0"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="95.69399999999999"
+            y="54.00000000000003"
+            width="12.666666666666666"
+            height="245.99999999999997"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="109.30600000000003"
+            y="69.42857142857142"
+            width="12.666666666666666"
+            height="230.57142857142858"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="123.0"
+            y="52.28571428571428"
+            width="12.666666666666666"
+            height="247.71428571428572"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="136.694"
+            y="59.14285714285714"
+            width="12.666666666666666"
+            height="240.85714285714286"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="150.306"
+            y="77.14285714285714"
+            width="12.666666666666666"
+            height="222.85714285714286"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="164.0"
+            y="43.71428571428572"
+            width="12.666666666666666"
+            height="256.2857142857143"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="177.694"
+            y="38.571428571428555"
+            width="12.666666666666666"
+            height="261.42857142857144"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="191.306"
+            y="61.71428571428572"
+            width="12.666666666666666"
+            height="238.28571428571428"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="205.0"
+            y="52.28571428571428"
+            width="12.666666666666666"
+            height="247.71428571428572"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="218.694"
+            y="60.85714285714286"
+            width="12.666666666666666"
+            height="239.14285714285714"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="232.30599999999998"
+            y="44.571428571428584"
+            width="12.666666666666666"
+            height="255.42857142857142"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="246.0"
+            y="40.28571428571428"
+            width="12.666666666666666"
+            height="259.7142857142857"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="259.69399999999996"
+            y="75.42857142857144"
+            width="12.666666666666666"
+            height="224.57142857142856"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="273.30600000000004"
+            y="60.85714285714286"
+            width="12.666666666666666"
+            height="239.14285714285714"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="287.0"
+            y="65.14285714285717"
+            width="12.666666666666666"
+            height="234.85714285714283"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="300.69399999999996"
+            y="65.14285714285717"
+            width="12.666666666666666"
+            height="234.85714285714283"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="314.30600000000004"
+            y="66.0"
+            width="12.666666666666666"
+            height="234.0"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="328.0"
+            y="53.14285714285714"
+            width="12.666666666666666"
+            height="246.85714285714286"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="341.69399999999996"
+            y="75.42857142857144"
+            width="12.666666666666666"
+            height="224.57142857142856"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="355.30600000000004"
+            y="85.71428571428572"
+            width="12.666666666666666"
+            height="214.28571428571428"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="369.0"
+            y="60.85714285714286"
+            width="12.666666666666666"
+            height="239.14285714285714"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="382.694"
+            y="57.428571428571416"
+            width="12.666666666666666"
+            height="242.57142857142858"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+      <rect x="396.306"
+            y="84.85714285714283"
+            width="12.666666666666666"
+            height="215.14285714285717"
+            fill="#ff7f0e"
+            opacity="0.85"/>
+
+    <text text-anchor="middle"
+          x="205.0"
+          y="355"
+          font-family="sans-serif" font-size="12" fill="#444">
+      Horas de sueño
+    </text>
+
+    <text text-anchor="middle"
+          transform="rotate(-90)"
+          x="-150.0"
+          y="-45"
+          font-family="sans-serif" font-size="12" fill="#444">
+      Frecuencia
+    </text>
+  </g>
+</svg>
