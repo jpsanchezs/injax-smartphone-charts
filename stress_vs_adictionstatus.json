@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "Stress": "Low",
+      "NoAdicto": 721,
+      "Adicto": 1782
+    },
+    {
+      "Stress": "Medium",
+      "NoAdicto": 712,
+      "Adicto": 1725
+    },
+    {
+      "Stress": "High",
+      "NoAdicto": 759,
+      "Adicto": 1801
+    }
+  ]
+}
