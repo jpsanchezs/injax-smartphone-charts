@@ -107,6 +107,16 @@
 
         <div class="chart-block reverse">
           <div class="chart-info">
+            <h3>Distribución del nivel de estres por condicion de adiccion</h3>
+            <p>Los usuarios clasificados como adictos tienden a concentrarse más en niveles de estrés medio y alto en comparación con los no adictos. Esto sugiere una posible relación entre la adicción al smartphone y el aumento del estrés. Aunque no implica causalidad directa, sí evidencia que ambos fenómenos están asociados dentro del conjunto de datos.</p>
+          </div>
+          <div class="chart-img">
+            <img src="img/stress_vs_adictionstatus.svg" alt="Nivel de estres segun condicion de adiccion.">
+          </div>
+        </div>
+
+        <div class="chart-block">
+          <div class="chart-info">
             <h3>Relación entre tiempo de pantalla y horas de sueño</h3>
             <p>La relación entre el tiempo de pantalla y las horas de sueño muestra una tendencia negativa, es decir, a mayor uso del smartphone, menor cantidad de horas de descanso. Además, al incorporar el nivel de adicción se observa que los usuarios con niveles más altos tienden a concentrarse en zonas de alto uso y bajo sueño. Esto sugiere que la adicción al smartphone no solo implica más tiempo de uso, sino también un impacto directo en hábitos saludables como el descanso.</p>
           </div>
@@ -115,7 +125,7 @@
           </div>
         </div>
 
-        <div class="chart-block">
+        <div class="chart-block reverse">
           <div class="chart-info">
             <h3>Horas en redes sociales según nivel de estrés</h3>
             <p>El grupo con nivel de estrés medio presenta una mayor mediana en el uso de redes sociales lo que podría indicar que estas plataformas funcionan tanto como una fuente de distracción como un posible factor de estrés. La variabilidad observada sugiere que el uso de redes sociales no es uniforme, pero sí puede estar vinculado a cambios en el estado emocional de los usuarios.</p>
@@ -127,7 +137,7 @@
 
         <div class="chart-type-label">Multidimensional</div>
 
-        <div class="chart-block reverse">
+        <div class="chart-block">
           <div class="chart-info">
             <h3>Pantalla, sueño, redes sociales, adicción y estrés</h3>
             <p>Esta gráfica incorpora cinco variables simultáneamente: el eje X representa el tiempo de pantalla diario, el eje Y las horas de sueño, el tamaño del círculo indica las horas dedicadas a redes sociales, el color del relleno muestra el nivel de adicción y el color del borde refleja el nivel de estrés. Se observa que los usuarios con mayor nivel de adicción tienden a concentrarse en zonas de alto uso de pantalla y bajo sueño, con mayor uso de redes sociales, lo que refuerza la idea de un consumo digital elevado en múltiples dimensiones.</p>
@@ -158,12 +168,13 @@
         <h2>Referencias a Gists</h2>
         <p>Cada gráfica fue publicada como un gist individual en GitHub, incluyendo la plantilla <strong>.inja</strong>, el archivo de datos <strong>.json</strong>, la imagen generada y un <strong>readme.md</strong> descriptivo.</p>
         <div class="gist-list">
-          <div class="gist-item"><span class="gist-name">gender.inja</span><span class="gist-desc">Distribución de género — <a href="#" class="gist-link">Ver gist</a></span></div>
-          <div class="gist-item"><span class="gist-name">sleep_hours.inja</span><span class="gist-desc">Distribución de horas de sueño — <a href="#" class="gist-link">Ver gist</a></span></div>
-          <div class="gist-item"><span class="gist-name">stress_level.inja</span><span class="gist-desc">Nivel de estrés — <a href="#" class="gist-link">Ver gist</a></span></div>
-          <div class="gist-item"><span class="gist-name">screen_vs_sleep.inja</span><span class="gist-desc">Tiempo de pantalla vs horas de sueño — <a href="#" class="gist-link">Ver gist</a></span></div>
-          <div class="gist-item"><span class="gist-name">social_vs_stress.inja</span><span class="gist-desc">Redes sociales vs tiempo de pantalla — <a href="#" class="gist-link">Ver gist</a></span></div>
-          <div class="gist-item"><span class="gist-name">multi.inja</span><span class="gist-desc">Gráfica multidimensional — <a href="#" class="gist-link">Ver gist</a></span></div>
+          <div class="gist-item"><span class="gist-name">gender.inja</span><span class="gist-desc">Distribución de género — <a href="https://gist.github.com/DanielSere/f8cc8b2d5aa59000dae9830fa86e6bcb" class="gist-link">Ver gist</a></span></div>
+          <div class="gist-item"><span class="gist-name">sleep_hours.inja</span><span class="gist-desc">Distribución de horas de sueño — <a href="https://gist.github.com/DanielSere/29385385d569c4c8b0abf9a7d233bbea" class="gist-link">Ver gist</a></span></div>
+          <div class="gist-item"><span class="gist-name">stress_vs_adictionstatus.inja</span><span class="gist-desc">Nivel de estres por estado de adiccion — <a href="https://gist.github.com/DanielSere/233ab49d4a6dc4467ad7911a127fe84d" class="gist-link">Ver gist</a></span></div>
+          <div class="gist-item"><span class="gist-name">stress_level.inja</span><span class="gist-desc">Nivel de estrés — <a href="https://gist.github.com/DanielSere/4b211c30d9b8ba1c93f51b60e55047fa" class="gist-link">Ver gist</a></span></div>
+          <div class="gist-item"><span class="gist-name">screen_vs_sleep.inja</span><span class="gist-desc">Tiempo de pantalla vs horas de sueño — <a href="https://gist.github.com/DanielSere/fe8ea5115b05816d019ad4f45359ba16" class="gist-link">Ver gist</a></span></div>
+          <div class="gist-item"><span class="gist-name">social_vs_stress.inja</span><span class="gist-desc">Redes sociales vs tiempo de pantalla — <a href="https://gist.github.com/DanielSere/0bac6c0d2487245c56908fed5e3da6d7" class="gist-link">Ver gist</a></span></div>
+          <div class="gist-item"><span class="gist-name">multi.inja</span><span class="gist-desc">Gráfica multidimensional — <a href="https://gist.github.com/DanielSere/a41d73643c24378ee5bf095a44acbb31" class="gist-link">Ver gist</a></span></div>
         </div>
       </div>
     </section>
